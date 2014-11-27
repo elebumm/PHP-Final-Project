@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
    <title>Lewis Menelaws</title>
-   <?=link_tag('login_view.css')?>
+   
  </head>
  <body>
    <h1 id="title">Hello stranger, please login</h1>
