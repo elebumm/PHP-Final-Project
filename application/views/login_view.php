@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
    <title>Lewis Menelaws</title>
-   
+   <link href="<?php echo base_url();?>login_view.css" type=text/css rel=stylesheet>
  </head>
  <body>
-   <h1 id="title">Hello stranger, please login</h1>
+   <h1 id="title">Hello stranger, please login!</h1>
+   <form id="form">
    <?php echo validation_errors(); ?>
    <?php echo form_open('verifylogin'); ?>
      <label for="username">Username:</label>

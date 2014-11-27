@@ -11,7 +11,9 @@ class Login extends CI_Controller {
 	{
 		$this->load->helper(array('form'));
 		$this->load->view('login_view');
-		
+		$this->load->helper('url');
+		$data['base'] = $this->config->item('base_url');
+		$data['css'] = $this->config->item('css');
 	}
 }
 

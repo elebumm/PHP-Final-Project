@@ -1,0 +1,22 @@
+@font-face {
+	font-family: titleFont;
+	src: url(alwaysforever.ttf);
+}
+
+
+body{
+	background-color: #B0FFFF;
+}
+
+
+#title {
+	
+	text-align: center;
+	font-size: 140px;
+	font-family: titleFont;
+}
+
+#form{
+	margin: 0px auto;
+	width: 20%;
+}
