@@ -3,19 +3,32 @@
  <head>
    <title>Lewis Menelaws</title>
    <link href="<?php echo base_url();?>login_view.css" type=text/css rel=stylesheet>
+   <link href="<?php echo base_url();?>animate.css" type=text/css rel=stylesheet>
  </head>
  <body>
-   <h1 id="title">Hello stranger, please login!</h1>
-   <form id="form">
+   <h1 id="title" class="animated bounceInLeft">Hello, please login!</h1>
    <?php echo validation_errors(); ?>
    <?php echo form_open('verifylogin'); ?>
-     <label for="username">Username:</label>
-     <input type="text" size="20" id="username" name="username"/>
+     <div id="username">
+     <label for="username" class="animated bounceInLeft">Username:</label>
+     <input type="text" size="20" class="animated bounceInLeft" id="username" name="username"/>
+     </div>
+     
+     <div id="password">
+     <label for="password" class="animated bounceInLeft">Password:</label>
+     <input type="password" size="20"  class="animated bounceInLeft" name="password"/>
+     </div>
      <br/>
-     <label for="password">Password:</label>
-     <input type="password" size="20" id="password" name="password"/>
-     <br/>
-     <input type="submit" value="Login"/>
+     <div id="submit">
+     <input type="submit" class="animated bounceInLeft" value="Login"/>
+   </div>
    </form>
+   <br>
+
+   <br>
+<p id="forgotPassword">Forgot your password?</p>
+<br>
+<p id="createAccount">Create Account</p>
+
  </body>
 </html>

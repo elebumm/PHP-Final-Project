@@ -16,7 +16,33 @@ body{
 	font-family: titleFont;
 }
 
-#form{
+#username{
 	margin: 0px auto;
-	width: 20%;
+	width: 30%;
+	font-family: titleFont;
+	font-weight: bold;
+}
+
+#password{
+	margin: 0px auto;
+	width: 30%;
+	font-family: titleFont;
+	font-weight: bold;
+}
+
+#submit{
+	margin: 0px auto;
+	width: 30%;
+}
+
+#forgotPassword{
+	margin: 0px auto;
+	width: 30%;
+	font-size: 16px;
+}
+
+#createAccount{
+	margin: 0px auto;
+	width: 30%;
+	font-size: 16px;
 }
