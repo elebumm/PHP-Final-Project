@@ -28,7 +28,7 @@
    <br>
 <p id="forgotPassword">Forgot your password?</p>
 <br>
-<p id="createAccount">Create Account</p>
+<a href="<?php echo site_url('User'); ?>">Create Account</a>
 
  </body>
 </html>

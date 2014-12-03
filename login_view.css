@@ -19,14 +19,14 @@ body{
 #username{
 	margin: 0px auto;
 	width: 30%;
-	font-family: titleFont;
+
 	font-weight: bold;
 }
 
 #password{
 	margin: 0px auto;
 	width: 30%;
-	font-family: titleFont;
+
 	font-weight: bold;
 }
 
